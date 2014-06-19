@@ -3,6 +3,7 @@
 
 ### Example
 
+```javascript
 describe('authorize-methods', function(){
   var request = require('supertest');
   var app = require('express')();
@@ -28,6 +29,7 @@ describe('authorize-methods', function(){
     .expect(200, 'true', done);
   });
 });
+```
 
 ##LICENSE
 ``````
