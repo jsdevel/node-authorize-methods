@@ -1,0 +1,33 @@
+{
+  "name": "authorize-methods",
+  "main": "lib/authorize-methods.js",
+  "version": "0.0.0",
+  "description": "Connect middleware to authorize HTTP methods.",
+  "author": "Joseph Spencer",
+  "scripts": {
+    "jshint": "jshint index.js && jshint --config .jshintrc-test test.js",
+    "mocha": "mocha -w",
+    "integration": "mocha './integration/*.js'",
+    "cover": "istanbul cover _mocha -- -R spec test.js && cat ./coverage/lcov.info | coveralls -v && rm -rf coverage",
+    "report": "istanbul report cobertura",
+    "test": "npm run-script jshint && npm run-script cover && npm run-script report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsdevel/node-authorize-methods.git"
+  },
+  "keywords": [],
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsdevel/node-authorize-methods/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.20.1",
+    "jshint": "~2.3.0",
+    "istanbul": "~0.2.11",
+    "coveralls": "~2.10.0",
+    "supertest": "~0.13.0",
+    "express": "~4.4.3"
+  }
+}
