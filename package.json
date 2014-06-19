@@ -16,7 +16,13 @@
     "type": "git",
     "url": "https://github.com/jsdevel/node-authorize-methods.git"
   },
-  "keywords": [],
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "auth",
+    "authorization"
+  ],
   "contributors": [],
   "license": "MIT",
   "bugs": {
