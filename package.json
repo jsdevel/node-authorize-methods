@@ -1,7 +1,7 @@
 {
   "name": "authorize-methods",
   "main": "lib/authorize-methods.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Connect middleware to authorize HTTP methods.",
   "author": "Joseph Spencer",
   "scripts": {
